@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Ununoctium" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\CMakeModules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/michael/work/Ununoctium" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Ununoctium">
+         <Option output="/home/michael/work/Ununoctium/bin/Ununoctium" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/michael/work/Ununoctium/./src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 Ununoctium" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Ununoctium/fast">
+         <Option output="/home/michael/work/Ununoctium/bin/Ununoctium" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="./bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/michael/work/Ununoctium/./src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/AL" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/Qt3Support" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtDBus" />
+            <Add directory="/usr/include/qt4/QtDeclarative" />
+            <Add directory="/usr/include/qt4/QtDesigner" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtHelp" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtScript" />
+            <Add directory="/usr/include/qt4/QtScriptTools" />
+            <Add directory="/usr/include/qt4/QtSql" />
+            <Add directory="/usr/include/qt4/QtSvg" />
+            <Add directory="/usr/include/qt4/QtTest" />
+            <Add directory="/usr/include/qt4/QtUiTools" />
+            <Add directory="/usr/include/qt4/QtWebKit" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/qt4/QtXmlPatterns" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/share/qt4/mkspecs/default" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 Ununoctium/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="doc">
+         <Option working_dir="/home/michael/work/Ununoctium" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 doc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/michael/work/Ununoctium" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/michael/work/Ununoctium" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/michael/work/Ununoctium/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/michael/work/Ununoctium/src/DebugWindow.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/GfxOptionWindow.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/HelpWindow.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/MainWindow.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/OptionWindow.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/StartMenuWindow.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/View.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/effect/SplatterSystem.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/geometry/ParticleSystem.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/geometry/Terrain.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/geometry/teapot.c">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/main.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/AResource.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/AudioSample.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/Material.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/Shader.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/StaticModel.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/audioLoader/audioLoader.c">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/audioLoader/oggVorbis.c">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/audioLoader/riffWave.c">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/Scene.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/TextureRenderer.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/AObject.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/AWorldObject.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Eye.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Landscape.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Sky.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Teapot.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Torch.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/World.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/creature/ACreature.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/creature/Dummy.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/creature/Player.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/AVegetation.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/Flower.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/Forest.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/Grass.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/PowerUp.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/weapon/AWeapon.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/weapon/Laser.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Capsule.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/FrustumTest.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Intersection.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/OcclusionTest.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Quaternion.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/RandomNumber.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Sphere.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Triangle.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Vector.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/alWrapper.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/glWrappers.cpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/DebugWindow.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/GfxOptionWindow.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/HelpWindow.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/MainWindow.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/OptionWindow.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/StartMenuWindow.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/View.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/effect/SplatterSystem.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/geometry/ParticleSystem.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/geometry/Terrain.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/geometry/teapot.h">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/AResource.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/AudioSample.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/Material.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/Shader.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/StaticModel.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/audioLoader/audioLoader.h">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/audioLoader/oggVorbis.h">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/resource/audioLoader/riffWave.h">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/Scene.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/TextureRenderer.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/AObject.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/AWorldObject.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Eye.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Landscape.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Sky.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Teapot.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/Torch.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/World.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/creature/ACreature.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/creature/Dummy.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/creature/Player.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/AVegetation.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/Flower.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/Forest.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/Grass.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/environment/PowerUp.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/weapon/AWeapon.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/scene/object/weapon/Laser.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Capsule.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/FrustumTest.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Intersection.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/OcclusionTest.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Quaternion.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/RandomNumber.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Sphere.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Triangle.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/Vector.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/src/utility/glWrappers.hpp">
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/CMakeModules/FindGLEW.cmake">
+          <Option virtualFolder="CMake Files\CMakeModules\" />
+      </Unit>
+      <Unit filename="/home/michael/work/Ununoctium/CMakeModules/FindVorbisFile.cmake">
+          <Option virtualFolder="CMake Files\CMakeModules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
